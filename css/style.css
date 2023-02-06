@@ -176,4 +176,24 @@ header nav .menu:hover {
     border-radius: 5px;
 }
 
+.small-prj .boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (min-width: 1199px) {
+    .small-prj .boxes-container .box {
+        flex-basis: 30%;
+    }
+
+}
+
+.small-prj .boxes-container .box img {
+    max-width: 100%;
+}
+
+/* .small-prj .boxes-container .box .description {} */
+
+
 /* End Small Projects */
