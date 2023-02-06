@@ -107,13 +107,7 @@ header nav ul {
 @media (max-width: 768px) {
     header nav ul {
         display: none;
-        /* display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 0;
-        background: #333;
-        width: 100%;
-        left: 0; */
+
     }
 
     header nav ul a {
@@ -162,6 +156,10 @@ header nav .menu:hover {
 
 /* End About Section */
 /* Start Small Projects */
+.small-prj {
+    background-color: var(--main-color);
+}
+
 .small-prj h2 {
     display: flex;
     align-items: center;
@@ -197,3 +195,39 @@ header nav .menu:hover {
 
 
 /* End Small Projects */
+/* Start Footer */
+footer {
+    background-color: var(--main-color);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .text {
+    font-size: 20px;
+}
+
+footer .text .year {
+    color: white;
+}
+
+footer .social {
+    font-size: 25px;
+}
+
+footer .social a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .social i:hover {
+    color: var(--secondary-color);
+}
+
+/* End Footer */

@@ -1,6 +1,7 @@
 let menu = document.querySelector(".menu"),
 	ul = document.getElementById("elements"),
-	close = document.querySelector(".close");
+	close = document.querySelector(".close"),
+	span = document.querySelector(".year");
 
 menu.addEventListener("click", () => {
 	ul.style.display = "flex";
@@ -18,3 +19,7 @@ close.addEventListener("click", () => {
 	ul.style.display = "none";
 	close.style.display = "none";
 });
+
+let newDate = new Date();
+
+span.innerHTML = newDate.getFullYear();
