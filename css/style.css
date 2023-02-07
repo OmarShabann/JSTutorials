@@ -312,11 +312,11 @@ footer .social a {
 
 @media (max-width: 767px) {
     footer .text {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     footer .social {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     footer .social a {
