@@ -17,7 +17,12 @@ body {
 }
 
 html {
+    transition: 0.5s;
     scroll-behavior: smooth;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .container {
@@ -156,7 +161,7 @@ header nav .menu:hover {
 
 /* End About Section */
 /* Start Small Projects */
-.small-prj {
+.small-prj .container {
     background-color: var(--main-color);
 }
 
@@ -177,21 +182,80 @@ header nav .menu:hover {
 .small-prj .boxes-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.small-prj .boxes-container .box {
+    background-color: white;
+    margin: 20px 0;
+    outline: white 12px solid;
+    position: relative;
+}
 
 @media (min-width: 1199px) {
     .small-prj .boxes-container .box {
         flex-basis: 30%;
     }
-
 }
+
+@media (min-width: 768px) {
+    .small-prj .boxes-container .box {
+        flex-basis: 40%;
+    }
+}
+
 
 .small-prj .boxes-container .box img {
     max-width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
-/* .small-prj .boxes-container .box .description {} */
+.small-prj .boxes-container .box img:hover+a,
+.small-prj .boxes-container .box a:hover {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.small-prj .boxes-container .box a {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    display: none;
+}
+
+.small-prj .boxes-container .box .description {
+    background-color: white;
+    padding: 0;
+}
+
+.small-prj .boxes-container .box .description h4 {
+    margin: 0;
+    font-size: 25px;
+    padding: 7px;
+    text-align: center;
+}
+
+.small-prj .boxes-container .box .description p {
+    margin: 0;
+    text-align: center;
+}
 
 
 /* End Small Projects */
@@ -224,6 +288,20 @@ footer .social a {
     padding-left: 50px;
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 767px) {
+    footer .text {
+        font-size: 12px;
+    }
+
+    footer .social {
+        font-size: 20px;
+    }
+
+    footer .social a {
+        padding: 2px;
+    }
 }
 
 footer .social i:hover {
