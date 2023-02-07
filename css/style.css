@@ -1,7 +1,7 @@
 /* Start Vars */
 :root {
-    --main-color: #8ecce7;
-    --secondary-color: #ffeb1a;
+    --main-color: #3D087B;
+    --secondary-color: #FFE459;
 }
 
 /* Start Vars */
@@ -161,17 +161,20 @@ header nav .menu:hover {
 
 /* End About Section */
 /* Start Small Projects */
-.small-prj .container {
-    background-color: var(--main-color);
+.small-prj,
+.big-prj {
+    background-color: #eeeeee6b;
 }
 
-.small-prj h2 {
+.small-prj h2,
+.big-prj h2 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.small-prj h2 p {
+.small-prj h2 p,
+.big-prj h2 p {
     font-size: 30px;
     background-color: var(--secondary-color);
     width: fit-content;
@@ -179,14 +182,16 @@ header nav .menu:hover {
     border-radius: 5px;
 }
 
-.small-prj .boxes-container {
+.small-prj .boxes-container,
+.big-prj .boxes-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.small-prj .boxes-container .box {
+.small-prj .boxes-container .box,
+.big-prj .boxes-container .box {
     background-color: white;
     margin: 20px 0;
     outline: white 12px solid;
@@ -194,19 +199,24 @@ header nav .menu:hover {
 }
 
 @media (min-width: 1199px) {
-    .small-prj .boxes-container .box {
+
+    .small-prj .boxes-container .box,
+    .big-prj .boxes-container .box {
         flex-basis: 30%;
     }
 }
 
 @media (min-width: 768px) {
-    .small-prj .boxes-container .box {
+
+    .small-prj .boxes-container .box,
+    .big-prj .boxes-container .box {
         flex-basis: 40%;
     }
 }
 
 
-.small-prj .boxes-container .box img {
+.small-prj .boxes-container .box img,
+.big-prj .boxes-container .box img {
     max-width: 100%;
     transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -216,7 +226,9 @@ header nav .menu:hover {
 }
 
 .small-prj .boxes-container .box img:hover+a,
-.small-prj .boxes-container .box a:hover {
+.small-prj .boxes-container .box a:hover,
+.big-prj .boxes-container .box img:hover+a,
+.big-prj .boxes-container .box a:hover {
     display: block;
     position: absolute;
     top: 50%;
@@ -231,7 +243,8 @@ header nav .menu:hover {
 
 }
 
-.small-prj .boxes-container .box a {
+.small-prj .boxes-container .box a,
+.big-prj .boxes-container .box a {
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -240,29 +253,35 @@ header nav .menu:hover {
     display: none;
 }
 
-.small-prj .boxes-container .box .description {
+.small-prj .boxes-container .box .description,
+.big-prj .boxes-container .box .description {
     background-color: white;
     padding: 0;
 }
 
-.small-prj .boxes-container .box .description h4 {
+.small-prj .boxes-container .box .description h4,
+.big-prj .boxes-container .box .description h4 {
     margin: 0;
     font-size: 25px;
     padding: 7px;
     text-align: center;
 }
 
-.small-prj .boxes-container .box .description p {
+.small-prj .boxes-container .box .description p,
+.big-prj .boxes-container .box .description p {
     margin: 0;
     text-align: center;
 }
 
 
 /* End Small Projects */
+/* Start Big Projects */
+
+/* End Big Projects */
 /* Start Footer */
 footer {
     background-color: var(--main-color);
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 20px;
 }
 
@@ -274,6 +293,7 @@ footer .container {
 
 footer .text {
     font-size: 20px;
+    color: white;
 }
 
 footer .text .year {
@@ -292,7 +312,7 @@ footer .social a {
 
 @media (max-width: 767px) {
     footer .text {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     footer .social {
