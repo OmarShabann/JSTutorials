@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Scroll Progress</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    background-color: #333;
+    min-height: 3000px;
+}
+
+.scroller {
+    background-color: #eee;
+    height: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+    </style>
+</head>
+<body>
+    <div class="scroller"></div>
+    <div><p>Scroll Now!</p></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
