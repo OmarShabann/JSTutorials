@@ -1,7 +1,7 @@
 /* Start Vars */
 :root {
-    --main-color: #0F3D3E;
-    --secondary-color: #E2DCC8;
+    --main-color: #3D087B;
+    --secondary-color: #FFE459;
 }
 
 /* Start Vars */
@@ -13,12 +13,16 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #13202b;
+    font-family: 'Work Sans', sans-serif;
 }
 
 html {
+    transition: 0.5s;
     scroll-behavior: smooth;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 .container {
@@ -153,13 +157,13 @@ header nav .menu:hover {
 .about .text {
     font-size: 28px;
     text-align: center;
-    color: white;
 }
 
 /* End About Section */
 /* Start Small Projects */
-.small-prj {
-    background-color: var(--main-color);
+.small-prj,
+.big-prj {
+    background-color: #eeeeee6b;
 }
 
 .small-prj h2,
@@ -308,11 +312,11 @@ footer .social a {
 
 @media (max-width: 767px) {
     footer .text {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     footer .social {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     footer .social a {
@@ -323,5 +327,3 @@ footer .social a {
 footer .social i:hover {
     color: var(--secondary-color);
 }
-
-/* End Footer */
