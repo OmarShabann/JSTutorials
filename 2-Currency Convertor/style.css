@@ -54,12 +54,12 @@ select {
 
 @media (max-width: 560px) {
     input {
-        width: 60px;
+        width: 65px;
         font-size: 10px;
     }
 
     select {
-        width: 50px;
+        width: 55px;
         font-size: 10px;
     }
 }
