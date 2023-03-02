@@ -18,7 +18,7 @@ Here, I will put JavaScript applications, which will differ between large and sm
 <br><br>
 <a href="https://omarshabann.github.io/JSProjects/07-Population/index.html">07- Population | Type Ahead</a>
 <br><br>
-<a href="https://omarshabann.github.io/JSProjects/08-AdviceGenertorApp/index.html">08- Advice Generator App</a>
+<a href="https://omarshabann.github.io/JSProjects/08-AdviceGeneratorApp/index.html">08- Advice Generator App</a>
 
 ## Big Projects
 
