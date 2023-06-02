@@ -23,6 +23,9 @@ Here, I will put JavaScript applications, which will differ between large and sm
 ## Big Projects
 
 <a href="https://omarsha6an.github.io/HungmanGame/">01- Hungman Game</a>
+<br><br>
+<a href="https://omarsha6an.github.io/ImageSlider/">02- Image Slider</a>
+
 
 ## Used Tools
 
