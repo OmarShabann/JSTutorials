@@ -1,0 +1,91 @@
+& {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 800px;
+  background-color: #f6f6f6;
+  margin: auto;
+}
+
+.get-repos {
+  padding: 20px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+
+.get-repos input {
+  width: 100%;
+  height: 25px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.get-repos input:focus {
+  outline: 2px red;
+}
+
+.get-repos button {
+  width: 140px;
+  margin-left: 10px;
+  height: 50px;
+  background-color: red;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.show-data {
+  padding: 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.show-data div {
+  color: black;
+  background-color: white;
+  padding: 5px 15px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.show-data div span {
+  color: white;
+  background-color: gray;
+  margin: 0 15px 0 0;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.show-data div a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
