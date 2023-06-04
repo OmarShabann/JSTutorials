@@ -20,7 +20,7 @@ Here, I will put JavaScript applications, which will differ between large and sm
 <br><br>
 <a href="https://omarsha6an.github.io/JSProjects/08-AdviceGeneratorApp/index.html">08- Advice Generator App</a>
 <br><br>
-<a href="https://omarsha6an.github.io/JSProjects/08-ReposViewer/index.html">09- Repos Viewer</a>
+<a href="https://omarsha6an.github.io/JSProjects/09-ReposViewer/index.html">09- Repos Viewer</a>
 
 ## Big Projects
 
