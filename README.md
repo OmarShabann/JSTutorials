@@ -26,7 +26,9 @@ Here, I will put JavaScript applications, which will differ between large and sm
 
 <a href="https://omarsha6an.github.io/HungmanGame/">01- Hungman Game</a>
 <br><br>
-<a href="ttps://omarsha6an.github.io/ImageSlider/">02- Image Slider</a>
+<a href="https://omarsha6an.github.io/ImageSlider/">02- Image Slider</a>
+<br><br>
+<a href="https://omarsha6an.github.io/QuizApp/">03- Quiz App</a>
 
 ## Used Tools
 
