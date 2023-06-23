@@ -31,6 +31,8 @@ Here, I will put JavaScript applications, which will differ between large and sm
 <a href="https://omarsha6an.github.io/QuizApp/">03- Quiz App</a>
 <br><br>
 <a href="https://omarsha6an.github.io/PrayerTimes/">04- Prayer Times</a>
+<br><br>
+<a href="https://omarsha6an.github.io/SocialMediaWebsite/">05-Social Media Website</a>
 
 ## Used Tools
 
